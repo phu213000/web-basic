@@ -1,0 +1,178 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+#header {
+  background-color: #f8c6c6; /* Màu nền hồng nhạt */
+  text-align: center;
+  padding: 15px 20px;
+  border-bottom: 2px solid #d35454; /* Viền dưới */
+}
+
+#header h1 {
+  color: #d35454; /* Màu chữ đỏ đậm */
+  font-size: 2rem;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 10px;
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Khoảng cách giữa các mục */
+}
+
+#nav a {
+  text-decoration: none; /* Bỏ gạch chân */
+  font-size: 1rem;
+  color: #333; /* Màu chữ */
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#nav a:hover {
+  background-color: #d35454; /* Màu nền khi hover */
+  color: #fff; /* Màu chữ khi hover */
+  border-radius: 5px; /* Bo tròn góc */
+}
+
+#nav .icon img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px; /* Khoảng cách giữa icon và chữ */
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-box input {
+  border: none;
+  padding: 5px 10px;
+  outline: none;
+  width: 150px;
+  font-size: 0.9rem;
+}
+
+.search-box button {
+  background-color: #d35454; /* Màu nền nút */
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.search-box button:hover {
+  background-color: #333; /* Màu nền khi hover */
+}
+
+#body {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+/* Sidebar Left */
+#sidebar-left {
+  width: 20%;
+}
+
+#sidebar-left ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#sidebar-left ul li {
+  margin-bottom: 10px;
+}
+#sidebar-left ul li a {
+  display: block;
+  padding: 10px 15px;
+  background-color: #f8c6c6;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+#sidebar-left ul li a:hover {
+  background-color: #d35454;
+  color: white;
+}
+#sidebar-left img {
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+}
+
+/* Main Content */
+#main-content {
+  width: 60%;
+}
+
+.menu-section h2 {
+  background-color: #f8c6c6;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-section ul {
+  margin-bottom: 20px;
+}
+
+.form-section form input,
+.form-section form select,
+.form-section form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Sidebar Right */
+#sidebar-right {
+  width: 20%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar-right .event {
+  margin-bottom: 20px;
+}
+
+#sidebar-right img {
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8c6c6;
+}
